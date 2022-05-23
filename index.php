@@ -9,8 +9,8 @@
     $all = $new->showAllArticle($bdd);
     foreach($all as $art){
         echo '<div>
-            <h3>'.$art->nom_art.'</h3>
-            <p>'.$art->content_art.'</p>
+            <h3>Titre : '.$art->nom_art.'</h3>
+            <p><strong>Contenu : </strong>'.$art->content_art.'</p>
         </div>';
     }
 ?>
